@@ -3,8 +3,8 @@ import image from "./dvd200.png"
 
 var config = {
     type: Phaser.AUTO,
-    width: 800,
-    height: 600,
+    width: window.innerWidth - 20,
+    height: window.innerHeight - 20,
     physics: {
         default: 'arcade',
         arcade: {
