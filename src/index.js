@@ -17,6 +17,16 @@ var config = {
     }
 };
 
+function printSize() {
+    const timeout = 200
+    setTimeout(() => {
+        location.reload()
+    }, timeout);
+    
+}
+
+window.addEventListener('resize', printSize);
+
 var game = new Phaser.Game(config);
 
 function preload ()
